@@ -7,14 +7,14 @@
         {
             Console.WriteLine("=== UTFLYKTSKALKYLATOR ===");
             Console.WriteLine("vad är din budget");
-            int budget = Convert.ToInt32(Console.ReadLine());
+            int budget = Convert.ToInt32(Console.ReadLine());        //kollar budgeten
             Console.Write("Hur många personer ska följa med? ");
             int antal = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Vad kostar resan per person? ");
+            Console.Write("Vad kostar resan per person? ");     //kollar kostnaden för resa per person
             int resa = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Vad kostar maten per person? ");
+            Console.Write("Vad kostar maten per person? ");     //kollar matten per person
             int mat = Convert.ToInt32(Console.ReadLine());
 
             // Räknar ut kostnaden för en person.
@@ -34,7 +34,7 @@
             {
                 Console.WriteLine($"ni har  råd");
             }
-            Console.WriteLine("vill du avsluta? 1: ja 2: börja om");
+            Console.WriteLine("vill du avsluta? \n1: ja \nvalfri tangent: nej ");     
             int sluta = Convert.ToInt32(Console.ReadLine());
             if (sluta == 1)
             {
