@@ -26,7 +26,7 @@
             Console.WriteLine();
             Console.WriteLine("Kostnad per person: " + kostnadPerPerson + " kr");
             Console.WriteLine("Total kostnad: " + totalKostnad + " kr");
-            if (budget < totalKostnad)     // kollar om de har råd beroende på budgeten
+            if (budget < totalKostnad)     // kollar om de har råd beroende på budgeten.
             {
                 Console.WriteLine($"ni har inte råd, det fattas {budget - totalKostnad}kr");
             }
